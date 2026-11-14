@@ -2,7 +2,7 @@
 
 ## Data Flow
 
-1. **Scout (Grok Bot)** runs scheduled or on-demand research.
+1. **Scout (Grok Bot)** runs scheduled or on-demand research across all five models.
 2. Brief is delivered to user (chat / notification).
 3. User (or automation) pastes top idea into Claude with a prompt from `claude-prompts/`.
 4. Claude outputs script / site code / ad copy.
@@ -19,10 +19,14 @@
 
 ## Daily Routine (set on the Scout bot)
 
-- 9 AM EST: Opportunity Brief
-  - Top 5 ideas
-  - Trending questions
-  - New assets / GitHub finds
-  - Monetization angle of the day
+- 9 AM EST: Opportunity Brief that balances **all five models**
+  - At least one strong actionable item from each:
+    1. Media Empire
+    2. Clipping + Distribution
+    3. Search/Traffic Funneling
+    4. Ads & UGC for Brands
+    5. Online Prep
+  - Top ideas, trending questions, new assets / GitHub finds, monetization notes
+  - Ready-to-paste Claude prompts
 
-This keeps the research layer always-on while Claude handles the creative and build heavy lifting.
+This keeps the research layer always-on and balanced while Claude handles the creative and build heavy lifting.
