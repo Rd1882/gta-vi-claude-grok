@@ -9,7 +9,7 @@ User
   |
   +-- Grok Bot: "GTA VI Content Scout" (research + curation layer)
   |     - Scrapes X, web, Reddit, GitHub for viral ideas, news, assets, tools
-  |     - Daily 9 AM EST Opportunity Brief
+  |     - Daily 9 AM EST Opportunity Brief (balances ALL five models)
   |     - Outputs: curated ideas + suggested Claude prompts + monetization notes
   |
   +-- Claude (scripting, building, Skills layer)
@@ -27,20 +27,22 @@ User
 
 | Component       | Tool          | Responsibility                                      | Output                          |
 |-----------------|---------------|-----------------------------------------------------|---------------------------------|
-| Research & Ideas| Grok Bot     | Viral scouting, news, assets, GitHub, trends        | Daily briefs, idea lists        |
+| Research & Ideas| Grok Bot     | Viral scouting, news, assets, GitHub, trends (all 5 models) | Daily briefs, idea lists   |
 | Scripting       | Claude       | Long-form scripts, hooks, voice matching (Skills)   | Ready-to-film scripts           |
 | Site / Funnel   | Claude Code  | Answer sites for high-volume GTA questions + affiliates | SEO landing pages             |
 | Clipping        | AI + X       | Find viral moments, edit, distribute                | Short-form posts                |
 | UGC / Ads       | Claude + tools| Brand ad creatives, process docs                    | Ad variants                     |
 | Online Prep     | Claude       | RP storylines, FiveM scripts, asset packs           | Server content / sellable packs |
 
-## Business Models Covered
+## Business Models Covered (balanced equally)
 
-1. **Media Empire** (primary) — content channel + X presence
+1. **Media Empire** — content channel + X presence
 2. **Clipping + Distribution** — leverage X clipping feature
 3. **Search / Traffic Funneling** — Claude-built answer sites + affiliates
 4. **Ads & UGC for Brands** — gaming chair, energy drink, etc. creatives
 5. **Online Prep** — RP servers, scripts, packs for when Online launches
+
+**Scout policy:** Every daily brief includes at least one strong actionable item from each of the five models.
 
 ## How to Use
 
